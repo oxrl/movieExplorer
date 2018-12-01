@@ -1,0 +1,29 @@
+<ion-side-menus>
+  <!-- This is the menu -->
+  <ion-side-menu>
+      <ion-content>
+          <ion-list>
+              <iom-item>
+                Home
+              </iom-item>
+              <ion-item>
+                Films
+              </ion-item>
+          </ion-list>
+      </ion-content>
+  </ion-side-menu>
+  <!-- This is the content -->
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <!-- here goes the content -->
+    <ion-nav-view name="content"></ion-nav-view>
+
+  </ion-side-menu-content>
+</ion-side-menus>
